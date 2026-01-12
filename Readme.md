@@ -1,12 +1,3 @@
-Here is a highly professional, portfolio-ready `README.md`.
-
-I have interpreted your request for an **"Architecture in tree format"** by creating a text-based **Traffic Flow Tree** diagram. This is a very "DevOps native" way to visualize infrastructure in a README file and looks impressive on GitHub.
-
-Copy the code block below directly into your `README.md` file.
-
----
-
-```markdown
 # ☁️ AWS Highly Available Multi-Tier Infrastructure (Uber-Clone)
 
 [![Terraform](https://img.shields.io/badge/Terraform-v1.0+-purple?logo=terraform)](https://www.terraform.io/)
