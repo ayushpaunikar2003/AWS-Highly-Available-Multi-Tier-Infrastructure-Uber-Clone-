@@ -186,7 +186,6 @@ After a successful deployment, Terraform will output the connection endpoints:
 | **`internal_app_url`** | Private DNS of Internal ILB | Internal API calls from Web to App tier |
 
 ---
-
 ## 👤 Author
 
 ### Ayush Paunikar
@@ -195,7 +194,5 @@ After a successful deployment, Terraform will output the connection endpoints:
 I am passionate about automating scalable infrastructure and solving complex deployment challenges.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayush-paunikar-441694209/) [![Gmail](https://img.shields.io/badge/Gmail-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ayushpaunikarltce@gmail.com)
-
-
 
 ---
