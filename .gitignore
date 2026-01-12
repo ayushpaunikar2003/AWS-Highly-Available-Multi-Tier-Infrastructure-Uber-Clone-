@@ -1,0 +1,12 @@
+# Local terraform state and plugins
+.terraform/
+*.tfstate
+*.tfstate.backup
+.terraform.lock.hcl
+
+# Variable files (containing passwords/keys)
+*.tfvars
+*.tfvars.json
+
+# Personal keys
+*.pem
