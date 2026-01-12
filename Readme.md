@@ -19,21 +19,23 @@ The following tree illustrates the request flow from the public internet down to
 ```mermaid
 graph TD;
     User((Internet User)) --> ALB[External Application Load Balancer];
-    subgraph VPC [Custom VPC (10.0.0.0/16)]
-        subgraph Public_Tier [Public Tier]
-            ALB --> WebASG[Web Tier ASG (Apache)];
+    
+    subgraph VPC ["Custom VPC (10.0.0.0/16)"]
+        
+        subgraph Public_Tier ["Public Web Tier"]
+            ALB --> WebASG[Web Tier ASG];
             NAT[NAT Gateway];
         end
         
-        subgraph Private_App_Tier [Private Application Tier]
+        subgraph Private_App_Tier ["Private Application Tier"]
             WebASG --HTTP--> ILB[Internal Load Balancer];
-            ILB --> AppASG[App Tier ASG (Business Logic)];
+            ILB --> AppASG[App Tier ASG];
         end
         
-        subgraph Data_Tier [Private Database Tier]
-            AppASG --SQL--> PrimaryDB[(RDS Primary MySQL)];
+        subgraph Data_Tier ["Private Database Tier"]
+            AppASG --SQL--> PrimaryDB[(RDS Primary)];
             PrimaryDB -.-> StandbyDB[(Multi-AZ Standby)];
-            AppASG --Read Only--> ReplicaDB[(RDS Read Replica)];
+            AppASG --Read Only--> ReplicaDB[(Read Replica)];
         end
     end
 
