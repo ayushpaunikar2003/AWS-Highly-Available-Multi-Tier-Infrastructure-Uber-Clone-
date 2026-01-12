@@ -194,13 +194,8 @@ After a successful deployment, Terraform will output the connection endpoints:
 
 I am passionate about automating scalable infrastructure and solving complex deployment challenges.
 
-<div align="left">
-  <a href="https://www.linkedin.com/in/ayush-paunikar-441694209/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Connect on LinkedIn" />
-  </a>
-  <a href="mailto:ayushpaunikarltce@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Me" />
-  </a>
-</div>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayush-paunikar-441694209/) [![Gmail](https://img.shields.io/badge/Gmail-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ayushpaunikarltce@gmail.com)
+
+
 
 ---
